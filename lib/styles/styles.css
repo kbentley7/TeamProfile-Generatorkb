@@ -1,0 +1,21 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-dark {
+    color: green;
+}
+
+.text-dark:hover {
+    background-color: rgb(187, 181, 181); 
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: lavenderblush;
+    border-radius: 15%;
+    color:red;
+}
