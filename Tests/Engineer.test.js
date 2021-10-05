@@ -1,25 +1,13 @@
-const Employee = require("../lib/Employee");
+const Engineer = require("../lib/Engineer");
 
-test("Ability to set name using constructor function", () => {
-    const name = "Michael Scott";
-    const employee = new Employee(name);
-    expect(employee.name).toBe(name);
+test("Ability to set GitHub username using constructor function", () => {
+    const github = "malloryfaria";
+    const employee = new Engineer("Mallory", 1, "mallory.faria@gmail.com", github);
+    expect(employee.github).toBe(github);
   });
 
-test("Ability to set the user ID using constructor function", () => {
-    const id = "1";
-    const employee = new Employee("Michael Scott", id, "michael.scott@dundermifflin.com");
-    expect(employee.id).toBe(id);
-  });
-
-test("Running getEmail() should return the supplied email", () => {
-    const email = "michael.scott@dundermifflin.com";
-    const employee = new Employee("Michael Scott", 1, email);
-    expect(employee.getEmail()).toBe(email);
-  });
-
-test("Running getRole() should return 'Employee'", () => {
-    const role = "Employee";
-    const employee = new Employee("Michael Scott", 1, "michael.scott@dundermifflin.com");
+  test("getRole() should return Engineer as a role", () => {
+    const role = "Engineer";
+    const employee = new Engineer("Mallory", 1, "mallory.faria@gmail.com", "malloryfaria");
     expect(employee.getRole()).toBe(role);
   });
