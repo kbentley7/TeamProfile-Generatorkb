@@ -1,12 +1,12 @@
 const Employee = require("../lib/Employee");
 
-test("Ability to set name using constructor function", () => {
+test("Using a constructor function to set namme", () => {
     const name = "FakeBruce Lee";
     const employee = new Employee(name);
     expect(employee.name).toBe(name);
   });
 
-test("Ability to set the user ID using constructor function", () => {
+test("Using a constructor function to set user ID ", () => {
     const id = "1";
     const employee = new Employee("FakeBruce Lee", id, "fakebruce.lee@gmail.com");
     expect(employee.id).toBe(id);
