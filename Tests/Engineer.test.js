@@ -8,6 +8,6 @@ test("Using a constructor function to set GitHub user name", () => {
 
   test("getRole() A role of Engineer should be retruned", () => {
     const role = "Engineer";
-    const employee = new Engineer("Kenneth", 1, "kenmo8466@gmail.com", "kennethbentey");
+    const employee = new Engineer("Kenneth", 1, "kenmo8466@gmail.com", "kennethbentley");
     expect(employee.getRole()).toBe(role);
   });
