@@ -11,9 +11,9 @@
 
 ### Description
 Create a functional Team Generator using node.js 
-[Demo Link](https://drive.google.com/file/d/1_4SxdlxlvPrTeUWQUftyQUCNPRNHiWbU/view?usp=sharing)
+[Demo Link](https://drive.google.com/file/d/1SL4-IvkRsMZYDZ2BDZKnEuoQHXLoFPs4/view?usp=sharing)
 
-[Testing Link](https://drive.google.com/file/d/1_4SxdlxlvPrTeUWQUftyQUCNPRNHiWbU/view?usp=sharing)
+[Testing Link](https://drive.google.com/file/d/1sUPXLl210UABFemc6U0iSSMSk4mjXK2u/view?usp=sharing)
 
 ### Installation
 Install inquirer, jest, and install dependencies with npm i and use node.js command line to run the application.
