@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/kbentley7/TeamProfile-Generatorkb#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "node": "^16.10.0"
   },
   "devDependencies": {
     "jest": "^27.2.4"
